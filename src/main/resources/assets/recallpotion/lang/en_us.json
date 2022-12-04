@@ -1,0 +1,10 @@
+{
+  "item.minecraft.potion.effect.recall": "Potion of Recall",
+  "item.minecraft.splash_potion.effect.recall": "Splash Potion of Recall",
+  "item.minecraft.lingering_potion.effect.recall": "Lingering Potion of Recall",
+  "effect.tutorial.recall": "Recall",
+  "item.minecraft.potion.effect.wild_tp": "Potion of Ender",
+  "item.minecraft.splash_potion.effect.wild_tp": "Splash Potion of Ender",
+  "item.minecraft.lingering_potion.effect.wild_tp": "Lingering Potion of Ender",
+  "effect.tutorial.wild_tp": "Wild Teleportation"
+}

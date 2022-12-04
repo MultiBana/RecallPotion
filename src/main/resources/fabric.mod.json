@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "recallpotion",
+  "version": "${version}",
+
+  "name": "Recall Potion",
+  "description": "A somewhat balanced potion to teleport you home!",
+  "authors": [
+    "MultiBana"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.multibana.recallpotion.RecallPotionMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

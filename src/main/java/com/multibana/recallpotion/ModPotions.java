@@ -1,0 +1,21 @@
+package com.multibana.recallpotion;
+
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.potion.Potion;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
+
+public class ModPotions {
+    public static Potion RECALL_POTION;
+	public static Potion ENDER_POTION;
+
+	public static Potion registerPotion(String name, StatusEffectInstance statusEffectInstance, Identifier identifier) {
+		return Registry.register(Registry.POTION, identifier,
+				new Potion(statusEffectInstance));
+	}
+	public static void registerPotions() {
+		RECALL_POTION = registerPotion("recall_potion", new StatusEffectInstance(ModEffects.RECALL, 20 * 8, 0), new Identifier("tutorial", "recall"));
+		ENDER_POTION = registerPotion("ender_potion", new StatusEffectInstance(ModEffects.WILD_TELEPORTATION, 20 * 6, 0), new Identifier("tutorial", "wild_tp"));
+	}
+}
