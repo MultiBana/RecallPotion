@@ -10,7 +10,7 @@ public class ModEffects {
     public static StatusEffect WILD_TELEPORTATION;
 
     public static StatusEffect registerStatusEffect(String name, StatusEffect statusEffect) {
-        return Registry.register(Registry.STATUS_EFFECT, new Identifier("tutorial", name), statusEffect);
+        return Registry.register(Registry.STATUS_EFFECT, new Identifier("recallpotion", name), statusEffect);
     }
 
     public static void registerEffects() {

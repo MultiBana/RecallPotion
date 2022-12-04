@@ -15,7 +15,7 @@ public class ModPotions {
 				new Potion(statusEffectInstance));
 	}
 	public static void registerPotions() {
-		RECALL_POTION = registerPotion("recall_potion", new StatusEffectInstance(ModEffects.RECALL, 20 * 8, 0), new Identifier("tutorial", "recall"));
-		ENDER_POTION = registerPotion("ender_potion", new StatusEffectInstance(ModEffects.WILD_TELEPORTATION, 20 * 6, 0), new Identifier("tutorial", "wild_tp"));
+		RECALL_POTION = registerPotion("recall_potion", new StatusEffectInstance(ModEffects.RECALL, 20 * 8, 0), new Identifier("recallpotion", "recall"));
+		ENDER_POTION = registerPotion("ender_potion", new StatusEffectInstance(ModEffects.WILD_TELEPORTATION, 20 * 6, 0), new Identifier("recallpotion", "wild_tp"));
 	}
 }

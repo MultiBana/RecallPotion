@@ -9,12 +9,12 @@
     "MultiBana"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/MultiBana/RecallPotion",
+    "sources": "https://github.com/MultiBana/RecallPotion"
   },
 
   "license": "CC0-1.0",
-  "icon": "icon.png",
+  "icon": "assets/recallpotion/icon.png",
 
   "environment": "*",
   "entrypoints": {
