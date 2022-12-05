@@ -64,7 +64,9 @@ public class RandomTPEffect extends StatusEffect {
     }
     @Override
     public void applyUpdateEffect(LivingEntity user, int pAmplifier) {
-        randomTP(user);
+        if(user.isPlayer()) {
+            randomTP(user);
+        }
     }
     @Override
     public boolean canApplyUpdateEffect(int pDuration, int pAmplifier){
