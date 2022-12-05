@@ -65,7 +65,7 @@ public class RecallEffect extends StatusEffect {
 
         target.stopRiding();
         player.fallDistance = 0;
-        target.teleport(spawn.getX(),spawn.getY(),spawn.getZ());
+        target.teleport(spawn.getX() + 0.5F,spawn.getY()+0.6F,spawn.getZ()+ 0.5F);
         target.world.playSound(null, spawn.getX() + 0.5F, spawn.getY()+0.6F, spawn.getZ() + 0.5F, SoundEvents.ITEM_CHORUS_FRUIT_TELEPORT, SoundCategory.PLAYERS, 1f, 1f);
     }
 
